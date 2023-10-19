@@ -1,0 +1,59 @@
+/* Write your CSS here */
+.RCB {
+  background-image: linear-gradient(to top, #1e293b, #a4261d);
+  background-size: cover;
+}
+.KKR {
+  background-image: linear-gradient(#5755a7, #d91c1f);
+  background-size: cover;
+}
+.KXP {
+  background-image: linear-gradient(to top, #1e293b, #a4261d);
+  background-size: cover;
+}
+.CSK {
+  background-image: linear-gradient(#f7db00, #ffffff33);
+  background-size: cover;
+}
+.RR {
+  background-image: linear-gradient(#da237b, #13418b);
+  background-size: cover;
+}
+.MI {
+  background-image: linear-gradient(#13418b, #f26d22);
+  background-size: cover;
+}
+
+.SH {
+  background-image: linear-gradient(#f26d22, #4f5db0);
+  background-size: cover;
+}
+
+.DC {
+  background-image: linear-gradient(#4f5db0, #0f172a);
+  background-size: cover;
+}
+
+.team-matches-bg-cont {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.team-matches-cont {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+.team-matches-latest-match-head {
+  align-self: flex-start;
+  color: #ffffff;
+  font-family: 'Bree serif';
+  font-size: 30px;
+}
+.recent-matches-list-cont {
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}

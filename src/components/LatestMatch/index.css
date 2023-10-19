@@ -1,0 +1,72 @@
+/* Write your CSS here */
+.latest-match-details-bg-cont {
+  min-height: 45vh;
+  background-color: #0f172a;
+  border-radius: 17px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .latest-match-details-bg-cont {
+    min-height: 45vh;
+    background-color: #0f172a;
+    border-radius: 17px;
+    display: flex;
+    flex-direction: row;
+  }
+}
+.latest-match-team-details-logo-cont {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .latest-match-team-details-logo-cont {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    width: 65%;
+  }
+}
+.latest-match-team-details-cont {
+  display: flex;
+  flex-direction: column;
+}
+.latest-match-competing-head {
+  color: #ffffff;
+  font-family: 'Bree serif';
+  font-size: 15px;
+}
+.line {
+  border: 1.5px solid #ffffff50;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .line {
+    display: none;
+  }
+}
+
+.latest-match-innings-details-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .latest-match-innings-details-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 20px;
+    width: 35%;
+  }
+}
